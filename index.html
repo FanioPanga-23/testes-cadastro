@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="estilos/large-devices.css" media="screen and (min-width: 992px)">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <section id="cadastro">
+            <div id="imagem">
+                <!--foto-->
+            </div>
+            <div id="formulario">
+                <h2>Quer ter acesso aos garimpos e matérias exclusivas? <br>cadastre-se aqui!</h2>
+                <!--formulário-->
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="text" name="firstname" id="ifirstname" placeholder="Digite o seu nome" required maxlength="15" autocomplete="name">
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="text" name="nickname" id="inickname" autocomplete="nickname" required maxlength="15" placeholder="Digite o seu apelido">
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">mail</span>
+                        <input type="email" name="mail" id="imail" autocomplete="email" required placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="pass" id="ipass" minlength="8" maxlength="25" required placeholder="Palavra-passe">
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="passconfirm" id="ipassconfirm" minlength="8" maxlength="25" required placeholder="Confirmar palavra-passe">
+                    </div>
+                    <div>
+                        <input type="submit" value="Cadastrar">
+                    </div>
+                    <p>
+                        Ao se cadastrar você irá concordar com os nossos <a href="termos_condicoes.html" target="_blank">termos de serviços</a> e <a href="termos_condicoes.html" target="_blank">política de privacidade</a>.
+                    </p>
+                    <input type="checkbox" name="termosP" id="itermosP">
+                    <label for="itermosP">Aceito os termos de serviços e política de privacidade</label>
+                    <p id="finalquestion">
+                        Já tem uma conta SoftAcademy?
+                    </p>
+                    <p id="linkLogin">
+                        <a href="login.html" target="_blank">Fazer Login</a>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

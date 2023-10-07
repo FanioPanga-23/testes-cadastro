@@ -1,0 +1,271 @@
+.Cadastro INFO
+
+ {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 2606px;
+  z-index: 29;
+}
+.Logotipo {
+  background-image: url("Logotipo.png");
+  position: absolute;
+  left: 755px;
+  top: 267px;
+  width: 370px;
+  height: 124px;
+  z-index: 28;
+}
+.Retângulo_5 {
+  border-radius: 3px;
+  background-color: rgb(146, 245, 143);
+  position: absolute;
+  left: 496px;
+  top: 1789px;
+  width: 39px;
+  height: 38px;
+  z-index: 24;
+}
+.Textos {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 2606px;
+  z-index: 23;
+}
+.Aceito_receber_notificações_e_informações_no_me {
+  font-size: 66px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  line-height: 0.632;
+  text-align: left;
+  -moz-transform: matrix( 0.52431727118126,0,0,0.52431727118126,0,0);
+  -webkit-transform: matrix( 0.52431727118126,0,0,0.52431727118126,0,0);
+  -ms-transform: matrix( 0.52431727118126,0,0,0.52431727118126,0,0);
+  position: absolute;
+  left: 587.585px;
+  top: 1826.213px;
+  z-index: 22;
+}
+.Ao_se_cadastrar_você_irá_concordar_com_o_nosso_ {
+  font-size: 66px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  line-height: 0.632;
+  text-align: center;
+  -moz-transform: matrix( 0.52431727118126,0,0,0.52431727118126,0,0);
+  -webkit-transform: matrix( 0.52431727118126,0,0,0.52431727118126,0,0);
+  -ms-transform: matrix( 0.52431727118126,0,0,0.52431727118126,0,0);
+  position: absolute;
+  left: 569.635px;
+  top: 1697.174px;
+  z-index: 21;
+}
+.Já_tem_uma_conta_SoftAcademy__Fazer_login_ {
+  font-size: 58.375px;
+  font-family: "Montserrat";
+  color: rgb(95, 104, 95);
+  line-height: 0.717;
+  text-align: center;
+  -moz-transform: matrix( 0.53837813377902,0,0,0.53837813377902,0,0);
+  -webkit-transform: matrix( 0.53837813377902,0,0,0.53837813377902,0,0);
+  -ms-transform: matrix( 0.53837813377902,0,0,0.53837813377902,0,0);
+  position: absolute;
+  left: 719.531px;
+  top: 2036.083px;
+  z-index: 20;
+}
+.Digite_o_seu_apelido {
+  font-size: 87.542px;
+  font-family: "Montserrat";
+  color: rgb(135, 135, 135);
+  text-transform: uppercase;
+  line-height: 4.404;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 512.053px;
+  top: 1108.055px;
+  z-index: 19;
+}
+.Comfirmar_palavra_passe {
+  font-size: 87.542px;
+  font-family: "Montserrat";
+  color: rgb(135, 135, 135);
+  text-transform: uppercase;
+  line-height: 4.404;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 525.655px;
+  top: 1589.18px;
+  z-index: 18;
+}
+.palavra_passe {
+  font-size: 87.542px;
+  font-family: "Montserrat";
+  color: rgb(135, 135, 135);
+  text-transform: uppercase;
+  line-height: 4.404;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 520.639px;
+  top: 1433.36px;
+  z-index: 17;
+}
+.email_ou_número_de_telefone {
+  font-size: 87.542px;
+  font-family: "Montserrat";
+  color: rgb(135, 135, 135);
+  text-transform: uppercase;
+  line-height: 4.404;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 512.476px;
+  top: 1273.219px;
+  z-index: 16;
+}
+.Digite_o_seu_nome {
+  font-size: 87.542px;
+  font-family: "Montserrat";
+  color: rgb(135, 135, 135);
+  text-transform: uppercase;
+  line-height: 4.404;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 512.823px;
+  top: 952.055px;
+  z-index: 15;
+}
+.Cadastrar {
+  font-size: 100px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 3.854;
+  text-align: center;
+  -moz-transform: scale(0.49, 0.49);
+  -webkit-transform: scale(0.49, 0.49);
+  -ms-transform: scale(0.49, 0.49);
+  position: absolute;
+  left: 792.806px;
+  top: 1771.797px;
+  z-index: 14;
+}
+.Retângulo_Arredondados {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 2606px;
+  z-index: 12;
+}
+.Retângulo_Arredondado_4_copiar_2 {
+  border-radius: 10px;
+  background-color: rgb(146, 245, 143);
+  position: absolute;
+  left: 484px;
+  top: 1500px;
+  width: 952px;
+  height: 112px;
+  z-index: 11;
+}
+.Retângulo_Arredondado_4_copiar_4 {
+  border-width: 3.5px;
+  border-color: rgb(135, 135, 135);
+  border-style: solid;
+  border-radius: 10px;
+  position: absolute;
+  left: 484px;
+  top: 838px;
+  width: 945px;
+  height: 105px;
+  z-index: 10;
+}
+.Retângulo_Arredondado_4_copiar_6 {
+  border-width: 3.5px;
+  border-color: rgb(135, 135, 135);
+  border-style: solid;
+  border-radius: 10px;
+  position: absolute;
+  left: 484px;
+  top: 1324px;
+  width: 945px;
+  height: 105px;
+  z-index: 9;
+}
+.Retângulo_Arredondado_4_copiar_5 {
+  border-width: 3.5px;
+  border-color: rgb(135, 135, 135);
+  border-style: solid;
+  border-radius: 10px;
+  position: absolute;
+  left: 484px;
+  top: 1159px;
+  width: 945px;
+  height: 105px;
+  z-index: 8;
+}
+.Retângulo_Arredondado_4_copiar {
+  border-width: 3.5px;
+  border-color: rgb(135, 135, 135);
+  border-style: solid;
+  border-radius: 10px;
+  position: absolute;
+  left: 484px;
+  top: 997px;
+  width: 945px;
+  height: 105px;
+  z-index: 7;
+}
+.Retângulo_Arredondado_4 {
+  border-width: 3.5px;
+  border-color: rgb(135, 135, 135);
+  border-style: solid;
+  border-radius: 10px;
+  position: absolute;
+  left: 484px;
+  top: 682px;
+  width: 945px;
+  height: 105px;
+  z-index: 6;
+}
+.Quer_ter_acesso_aos_garimpos_e_matérias_exclusi {
+  font-size: 137.542px;
+  font-family: "Montserrat";
+  color: rgb(146, 245, 143);
+  font-weight: bold;
+  line-height: 0.498;
+  text-align: center;
+  -moz-transform: matrix( 0.45450650414125,0,0,0.45450650414125,0,0);
+  -webkit-transform: matrix( 0.45450650414125,0,0,0.45450650414125,0,0);
+  -ms-transform: matrix( 0.45450650414125,0,0,0.45450650414125,0,0);
+  position: absolute;
+  left: 426.963px;
+  top: 515.761px;
+  z-index: 4;
+}
+.Camada 0 Fundo {
+  background-image: url("Camada 0.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 2606px;
+  z-index: 3;
+}
