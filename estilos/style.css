@@ -54,16 +54,17 @@ section#cadastro{
     border-radius: 10px;
     border: 1px solid #7272723f;
     box-shadow: 0px 0px 8px #00000034;
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
 }
 
 section#cadastro div#imagem{
-    display: block;
-    width: 40%;
-    height: 7%;
-    margin: auto;
-    margin-top: 5px;
     background: url(../cadastro/imagens/Logotipo.png) no-repeat;
     background-size: contain;
+    width: 200px;
+    height: 58px;
+    margin: auto;
+    margin-top: 5px;
 }
 
 section#cadastro div#formulario{
