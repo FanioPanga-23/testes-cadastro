@@ -32,10 +32,14 @@ html,body{
     font-family: var(--font2);
 }
 
+p{
+    font-size: 0.8em;
+}
+
 main{
-    display: block;
     position: relative;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 section#cadastro{
@@ -45,7 +49,7 @@ section#cadastro{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
-    height: 625px;
+    height: 570px;
     background-color: #fff;
     border-radius: 10px;
     border: 1px solid #7272723f;
@@ -54,7 +58,7 @@ section#cadastro{
 
 section#cadastro div#imagem{
     display: block;
-    width: 48%;
+    width: 40%;
     height: 7%;
     margin: auto;
     margin-top: 5px;
@@ -62,19 +66,19 @@ section#cadastro div#imagem{
     background-size: contain;
 }
 
+section#cadastro div#formulario{
+    display: block;
+    height: 100%;
+    padding: 10px;
+}
+
 section#cadastro div#formulario h2{
     font-family: var(--font1);
     width: 100%;
     text-align: center;
     font-size: 1.2em;
-    color: var(--cor4);
-    padding-bottom: 10px;
-}
-
-section#cadastro div#formulario{
-    display: block;
-    height: 100%;
-    padding: 10px;
+    color: #2ddd79;
+    padding: 15px 9px;
 }
 
 form div.campo{
@@ -93,14 +97,19 @@ form div.campo input{
     height: 41px;
     padding: 8px;
     border-radius: 8px;
-    transform: translate(9px, -12px);
+    transform: translate(9px, -8px);
 }
 
 form div.campo span.material-icons{
     width: 32px;
-    padding: 5px;
+    padding: 5px 5px -2px;
     color: #fff;
     cursor: pointer;
+}
+
+form p#termos_condicoes{
+    text-align: center;
+    padding: 20px 20px 5px;
 }
 
 form div input[type=submit]{
@@ -110,7 +119,7 @@ form div input[type=submit]{
     height: 40px;
     border-radius: 8px;
     margin-top: 8px;
-    background-color: #52e692;
+    background-color: #70ce99;
     text-transform: uppercase;
     font-family: var(--font3);
     font-size: 1em;
@@ -120,7 +129,7 @@ form div input[type=submit]{
 }
 
 form div input[type=submit]:hover{
-    background-color: #1cf078;
+    background-color: #39d37c;
     color: #fff;
     transition-duration: 0.3s;
     transition-timing-function: ease;
@@ -139,17 +148,7 @@ form a:hover{
     text-decoration: underline;
 }
 
-form label, p{
-    margin: 8px;
-    text-align: justify;
-}
-
 form p#finalquestion{
     text-align: center;
-    margin: 10px 0px;
-}
-
-form p#linkLogin{
-    text-align: center;
-    font-weight: bold;
+    padding: 10px;
 }
